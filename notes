@@ -1,0 +1,20 @@
+prompt used {
+    write a python programm to estimate pi using the monte carlo methode by drawing N random points inside a square from x [0,1] and y [0,1]. then check if the points are within a test quarter circle or not... the fraction inside the quarter circle should approximate a quarter of pi.
+    let this script run for different values of N between 10² and 10^7 and plot the error to N ratio with matplotlib.
+    Points on the edge of the quarter circle should be counted as in the circle.
+    you can start by placing 4 of the N points at the corners of the coordinate system.
+}
+
+Which steps did the agent take without being asked?
+
+-   use numpy
+-   plot the task for N=2500
+-   plot an estimate of pi versus N
+-   plot the convergence of pi versus N
+-   name the axis and plots
+-   provide a legend for each plot
+-   include a theoretical scaling of the error in the plot
+-   scale the axis of the plot
+-   include commandline arguments
+-   check if N is above 4 (4 non random starting points were set in the)
+-   set up a rng and seed
